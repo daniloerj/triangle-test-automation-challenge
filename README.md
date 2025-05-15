@@ -33,7 +33,7 @@ testing-automation-project
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/daniloerj/triangle-test-automation-challenge.git
-   cd testing-automation-project
+   cd triangle-test-automation-challenge
    ```
 
 2. **Install Dependencies**
