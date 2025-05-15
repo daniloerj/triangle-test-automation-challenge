@@ -18,8 +18,6 @@ testing-automation-project
 │       │   │   └── TestRunner.java
 │       │   ├── steps
 │       │   │   └── StepDefinitions.java
-│       │   └── screenplay
-│       │       └── Tasks.java
 │       └── resources
 │       │   ├── features
 │       │   │   └── SampleFeature.feature
@@ -34,7 +32,7 @@ testing-automation-project
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/testing-automation-project.git
+   git clone https://github.com/daniloerj/triangle-test-automation-challenge.git
    cd testing-automation-project
    ```
 
