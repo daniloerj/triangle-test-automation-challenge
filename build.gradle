@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "net.serenity-bdd:serenity-gradle-plugin:3.3.10"
+    }
+}
+
+plugins {
+    id 'java'
+}
+
+apply plugin: "net.serenity-bdd.serenity-gradle-plugin"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //testImplementation 'io.cucumber:cucumber-java:6.10.4'
+    //testImplementation 'io.cucumber:cucumber-junit:6.10.4'
+    testImplementation 'net.serenity-bdd:serenity-cucumber6:2.4.34'
+    implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+test {
+    //useJUnitPlatform()
+}
